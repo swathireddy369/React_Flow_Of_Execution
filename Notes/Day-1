@@ -1,0 +1,39 @@
+Topic-1:
+
+
+Topic-2: ignition
+
+npm
+npm init 
+git remote (git,github)
+package
+dependencies
+package.json
+bundler(webpack,parcel,vite)
+npm i -D ""
+-D (dev, aslo production)
+carot,tilde
+package-lock.json
+node_modules-parcel(its dependencies-its dependencies-its dependencies)
+gihub
+gitignore(/node_modules)
+npm install
+npm install reactdom
+broswer scripts
+type:module
+parcel:
+dev build
+local server
+refreshing our page (HMR) hot module replacement
+file watching algorithm- written in c++
+caching-faster bulds 
+consistent hashing
+code splitting
+differntial bundling -support old/diff browsers
+diagnostic
+error handling- display error
+host your app on https
+tree-shaking - remove unused code for you 
+https://parceljs.org/
+diff build for dev and production (little more time than than)
+browserslist:

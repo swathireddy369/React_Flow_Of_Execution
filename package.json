@@ -1,0 +1,39 @@
+{
+  "name": "react_flow_of_execution",
+  "version": "1.0.0",
+  "description": "Going Deep-Not Wide Please",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swathireddy369/React_Flow_Of_Execution.git"
+  },
+  "keywords": [
+    "Be",
+    "curious",
+    "about",
+    "each",
+    "and",
+    "every",
+    "single",
+    "character",
+    "which",
+    "we",
+    "are",
+    "typingggggggggggggggg......................"
+  ],
+  "author": "SWATHI AMARAVADI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swathireddy369/React_Flow_Of_Execution/issues"
+  },
+  "homepage": "https://github.com/swathireddy369/React_Flow_Of_Execution#readme",
+  "devDependencies": {
+    "parcel": "^2.15.1"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
