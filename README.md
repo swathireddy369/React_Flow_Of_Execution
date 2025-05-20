@@ -74,3 +74,13 @@ root.render(h1ElementReact);
 </script>
 </body>
 </html>
+
+Week-1-Day-2:
+lets seperate our react code from html so that i create a app.js file and put that in index.html
+wow its works exaclty no changes 
+ok then lets add css in our application so that i create a index.cssand link that in our app 
+<link rel="stylesheet" href="index.css">
+
+here here remember one thing is link is for linking css to our html page see okay but we ened to psecify whoch relation because we use link for redicting a particular link as well right that is what rel="stylesheet" and and for evry link tag need href attribute wtha t wpould be our css fil,e name thats oitttttttttttttt
+
+here :<link rel="stylesheet" href="index.css"/> we can place this anywhere in html page except in script tag  

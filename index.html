@@ -10,29 +10,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
 </head>
 <!-- //i am basic html -->
-
+ <link rel="stylesheet" href="index.css"/>
 <body>
+  <h1>Top of root</h1>
     <div id="root">
-        <!-- <h1>Hello World </h1> -->
-    </div>
+        <h4>Hello World </h4>
+        <h4>Hello World </h4>
+        <h4>Hello World </h4>
+        <h4>Hello World </h4>
 
+    </div>
+    <h1>bottom of root</h1>
+ 
 <!-- //i am javascript 
 create h1 tag -->
-<script>
-    const h1Element = document.createElement('h1');
+<!-- <script >
+      const h1Element = document.createElement('h1');
     // i am empty give me some value to put in me
     h1Element.innerHTML="Hello Super Engineer";//imnnerHTML (HTML) shoud be caps
     //h1: hey give me as a child to root or your wish i do not have capability to go run in your html you have to tell to your one of your html element to take me as a child please
 //    okay lets call root and give h1 to root
+
+
    const rooth=document.getElementById('root');
    //why you called me 
    //i will give a child of mine please put that into yours as a child
 //    okay then  how can you
 //i have one method to give you i will us ethat
 rooth.appendChild(h1Element);
-</script>
+   
+</script> -->
 
 <!-- //react -->
 <!-- //CDN Links website content devlivery network where react has been hosted so can use react  from thier scripts -->
@@ -52,20 +62,6 @@ rooth.appendChild(h1Element);
 <!-- <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> this is a;lso same like above one but here it has code reltaed to how the dom should be manupulated in browsers lets say js can run in diff platforms like in crhrim in mobile browser 
 so tell us how to modify the dom in diff browsers react-dom would help us  -->
 <!-- ///React//-->
-<script>
-// <!-- create h1 element in react// -->
-// <!-- okay i ahve method to create  -->
-const h1ElementReact=React.createElement('h1',{},"Hello React Engineer");
-// <!-- //create elemt is react core  concept so we have react.createElement -->
-// <!-- okay i am ready to render give me to root  -->
-//  <!-- okay how can i get root in dom tree
-//   i need to create root for dom tree  so that here we have to create root for our react dom tree so thet we have ReactDom.createRoot not in react make sure
-
-//    -->
-const root = ReactDOM.createRoot(document.getElementById('root'));
-//here see you are create root for dom by suing already existed div so now your div bemcomes your reactdom root
-//dom tree is ride having 
-root.render(h1ElementReact);
-</script>
+<script src="./App.js" />
 </body>
 </html>
