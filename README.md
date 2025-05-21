@@ -1,7 +1,8 @@
 # React_Flow_Of_Execution
 Here Everything React from scratch, i just wanted to go in depthy of each and every line of code no no not code every keyword so lets see
 
-Week-1-Day-1:
+
+===================================================================================Week-1 Day-1========================================================================
 
 <!-- Emmet // generate some for us -->
 <!-- //very powerful -->
@@ -75,7 +76,10 @@ root.render(h1ElementReact);
 </body>
 </html>
 
-Week-1-Day-2:
+===================================================================================Week-1 Day-2========================================================================
+
+
+
 lets seperate our react code from html so that i create a app.js file and put that in index.html
 wow its works exaclty no changes 
 ok then lets add css in our application so that i create a index.cssand link that in our app 
@@ -281,7 +285,78 @@ so waht erv the broswers you mentone din our package.json :brosswerslist then it
 
 
 
+===================================================================================Week-1 Day-3========================================================================
+
+Scripts: parcel index.html
+JSX:
+import React from "react";
+import ReactDOM from 'react-dom/client';
+//creating reactelement is very difficult when your are creating for multiple nested levels so there face book deevlopers decided to use jsx  but jsx is not developed by facebook developers
+//let see JSX not html it s like html syntax
+//it is a javascript object like when you a create a reactelement 
+// XML ->(babel) babel converts it into React.createelemnt-> React.createElement-> object -> render -> html Element
+const heading = <h1>Hello Swathi Amaravadi Welcome To Amazon</h1>
+console.log(heading);
+
+//this is a object 
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(heading);
+
+in jsx if we have mutiple elements to create then wrpa then in paranthisis
 
 
 
+functional components :
 
+import React from "react";
+import ReactDOM from 'react-dom/client';
+
+//JSX(React.createElement)
+const heading=<h1>Hello I am JSX(React Element)</h1>
+
+// component Composition
+const Heading1=()=>{
+
+return (
+    <div>
+    
+<h1>Hello I am JSX(React Element) but in Function </h1></div>)
+}
+
+
+//React component
+
+// class components
+// functional components
+// functional components:
+//  is defined as a normal js function which returns a piece of jsx(react elemnts)
+// the functiona name should be capital because then babel get to know its react components
+// its similar to jsx except arrow function indication which we put in FC
+// but there is a difference oin rendering we should render FC like this <Heading/> reactdom
+var count=3693;
+// const data=fecth();//here if we get malicious data(cross site effect) means lets say if some other persone can run a js in pur laptop then can read our localcache data so when we get any data like this our jsx will sanitize it before going to the broswer iyslef wow amazing 
+// 
+const Heading=()=>{
+
+    //compinent composition -calling one compoen t in an other component
+  return (
+    <div>
+       <h1> {count}</h1>
+         {heading}
+         {/* //these are three ways to call fc in side another fc */}
+         {Heading1()}
+         <Heading1></Heading1>
+  <Heading1/>
+ {console.log("i was amazing when log working in jsx")}
+  <h1>Hi i am react functional component</h1></div>
+);
+}
+
+const root=ReactDOM.createRoot(document.getElementById('root'));
+// root.render(heading);
+root.render(<Heading/>);
+
+
+//now we can write js in jsx letsay our heading is simple js object right we can use that in jsx
+
+//how your react code readbale ans is not because of react it ,ake our code more clumbsy okay jsx makes our code more redable and faster
